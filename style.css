@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+select {
+  height: 40px;
+  width: 100px;
+  font-size: 18px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+input {
+  height: 40px;
+  width: 160px;
+  outline: none;
+  border: 1px solid gray;
+  margin: 30px 0 30px 20px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+/* it is containing the currency calculator */
+.cc-container {
+  height: 600px;
+  width: 380px;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+  margin: 50px auto;
+  background-color: white;
+}
+
+/* top heading and subh-heading container */
+.cc-top-content {
+  padding: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: rgb(129, 129, 255);
+  color: #fff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 2px 5px gray;
+  line-height: 40px;
+}
+
+/* subheading */
+.cc-quote {
+  color: rgb(250, 250, 250);
+}
+
+/* Main Functional Section of the calculator that contains "currency input" and "currency output". */
+.main-container {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Calculate Button */
+.fa-balance-scale {
+  color: rgb(129, 129, 255);
+  cursor: pointer;
+}
+
+.fa-balance-scale:hover {
+  color: orange;
+}
+
+/* web developer */
+.web-dev {
+  text-align: right;
+  font-style: italic;
+  font-size: 15px;
+  color: rgb(127, 200, 145);
+  margin-top: 40px;
+  padding-top: 5px;
+  border-top: 1px solid rgb(219, 219, 219);
+}

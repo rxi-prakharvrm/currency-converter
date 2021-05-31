@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="cc-container">
+        <div class="cc-top-content">
+            <h2 class="cc-heading">Currency Converter</h2>
+            <p class="cc-quote">A real time exchange rate calculator</p>
+            <img src="images/1x/baseline_verified_black_24dp.png" alt="" class="verified">
+        </div>
+        <div class="main-container">
+            <select name="currency-from" id="currency-from">
+                <option value="INR">₹ INR</option>
+                <option value="USD">$ USD</option>
+                <option value="EUR">€ EUR</option>
+            </select>
+            <input type="text" class="input-currency-from" value="0" onclick="this.select();"><br>
+            <i class="fa fa-balance-scale fa-2x"></i><br>
+            <select name="currency-to" id="currency-to">
+                <option value="INR">₹ INR</option>
+                <option value="USD" selected>$ USD</option>
+                <option value="EUR">€ EUR</option>
+            </select>
+            <input type="text" class="input-currency-to" value="0" onclick="this.select();">
+            <p class="web-dev">by - Prakhar Verma</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
